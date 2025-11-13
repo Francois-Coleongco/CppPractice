@@ -1,6 +1,11 @@
+#include <atomic>
 #include <condition_variable>
 #include <mutex>
+#include <fcntl.h>
 #include <queue>
+
+
+// did this basically from memory, should be good with the mutex/conditional variable implementation for the mutex based producer-consumer now
 
 struct Packet {};
 
